@@ -1,0 +1,26 @@
+.get {
+  padding: 84px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #ebffe4;
+  margin-bottom: 130px;
+
+  &_title {
+    color: #000;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 130%; /* 57.2px */
+    padding-bottom: 24px;
+  }
+  &_text {
+    padding-bottom: 35px;
+    width: 30%;
+    color: #051101;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+}

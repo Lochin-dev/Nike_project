@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 1190px;
+    padding: 0 20px;
+    margin: 0 auto;
+   
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+scroll-behavior: smooth;
+}
+
+
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.nav_hone{
+    height: 110vh;
+    background: #EBFFE4;
+    background-image: url(./assets/img_png/Group_rang.png);
+    background-repeat: no-repeat;
+    background-position:right top;
+}

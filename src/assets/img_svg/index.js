@@ -1,0 +1,13 @@
+export { default as facebook } from './facebook.svg'
+export { default as twitter } from './twitter.svg'
+export { default as instagram } from './instagram.svg'
+export { default as kr1 } from './krasofka1.svg'
+export { default as kr2 } from './krasofka2.svg'
+export { default as kr3 } from './krasofka3.svg'
+export { default as nike } from './nike.svg'
+export { default as stars } from './stars.svg'
+export { default as Vector } from './Vector.svg'
+export { default as left } from './left.svg'
+export { default as right } from './right.svg'
+export { default as img_brat } from './img_brat.svg'
+

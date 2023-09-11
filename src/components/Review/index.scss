@@ -1,0 +1,103 @@
+.review {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  &_divone {
+    position: absolute;
+    z-index: 3;
+    right: 130px;
+
+    &__bg2 {
+      position: absolute;
+      right: -120px;
+    }
+  }
+
+  &_divtwo {
+    z-index: 3322;
+    display: flex;
+    align-items: center;
+    gap: 77px;
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &-span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 35px;
+      }
+      &-div {
+        display: flex;
+        align-items: center;
+        gap: 27px;
+        padding-top: 49px;
+        &--span {
+          border-radius: 50%;
+          width: 24.649px;
+          height: 24.649px;
+          background: #5cbe3a;
+        }
+      }
+    }
+
+    &__wrap {
+      width: 596.594px;
+      height: 437.723px;
+      flex-shrink: 0;
+      background: #fff;
+      box-shadow: -8px 10px 30px 0px rgba(0, 0, 0, 0.05);
+      padding: 66px 115px 72px 79px;
+      &-title {
+        color: #051101;
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 130%; /* 40.3px */
+      }
+      &-div {
+        padding: 40px 0;
+        display: flex;
+        align-items: start;
+        gap: 30px;
+
+        &--profil {
+          &_title {
+            color: #051101;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 140%; /* 30.8px */
+          }
+
+          &_text {
+            padding: 20px 0;
+            color: #051101;
+            font-family: Raleway;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 150%; /* 24px */
+            opacity: 0.7;
+          }
+
+          &_span {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &__title {
+              &--title {
+                color: #051101;
+                font-size: 22px;
+                font-weight: 600;
+                line-height: 140%; /* 30.8px */
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
